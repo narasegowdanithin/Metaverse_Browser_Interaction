@@ -1,0 +1,17 @@
+{
+  "name": "rcwa_framework",
+  "version": "1.0.0",
+  "description": "This is a Prototypical Framework for Realtime connected applications",
+  "main": "rcwa_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./rcwa_server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "keywords": [],
+  "devDependencies": {}
+}

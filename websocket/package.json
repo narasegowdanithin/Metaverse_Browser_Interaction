@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mongodb": "^6.0.0",
+    "upper-case": "^2.0.2",
+    "uuid": "^9.0.0",
+    "ws": "^8.14.2"
+  },
+  "scripts": {
+    "start": "node websocket_server.js",
+    "stop": "shutdown"
+  },
+  "name": "websocket",
+  "version": "1.0.0",
+  "main": "websocket_server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
+}

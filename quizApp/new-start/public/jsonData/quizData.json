@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Who invented the telephone?",
+    "options": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Albert Einstein",
+      "Nikola Tesla"
+    ],
+    "answer": "Alexander Graham Bell"
+  },
+  {
+    "question": "What year was the first iPhone released?",
+    "options": ["2005", "2007", "2008", "2010"],
+    "answer": "2007"
+  },
+  {
+    "question": "What is the capital of Spain?",
+    "options": ["Barcelona", "Madrid", "Valencia", "Seville"],
+    "answer": "Madrid"
+  }
+]

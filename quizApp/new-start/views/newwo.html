@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name=""viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Game</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script>
+            var url = 'https://eu-central-1.aws.data.mongodb-api.com/app/data-nmrqq/endpoint/quizques'; // Set the URL here
+        </script>
+        <script src="js/script.js"></script>
+    </head>
+    <!--<body data-quiz-url="https://eu-central-1.aws.data.mongodb-api.com/app/data-nmrqq/endpoint/quizques">-->
+    <body>
+        <header>
+            <h1 style="font-size: 52px;">Quiz Game</h1>
+            <p style="font-size: 52px;">Welcome</p>
+        </header>
+        
+        <div class="container" id="quizcontainer">
+           <section id="p0">
+                <h3 id = questionHeader>1. question no. 1</h3>
+                <label>
+                    <input type="radio" value ="1" name="p0" id="input0" onclick="response(0,this)">Turin
+                </label>
+                <label>
+                    <input type="radio" value ="2" name="p0" id="input0" onclick="response(0,this)">napo
+                </label>
+                <label>
+                    <input type="radio" value ="3" name="p0" id="input0" onclick="response(0,this)">Roma
+                </label>
+                <label>
+                    <input type="radio" value ="4" name="p0" id="input0" onclick="response(0,this)">Roma
+                </label>
+            </section>
+            <section id="p1">
+                <h3>2. question no. 2</h3>
+                <label>
+                    <input type="radio" value ="1" name="p1" onclick="response(1,this)">Turin
+                </label>
+                <label>
+                    <input type="radio" value ="2" name="p1" onclick="response(1,this)">napo
+                </label>
+                <label>
+                    <input type="radio" value ="4" name="p1" onclick="response(1,this)">Roma
+                </label>
+                <label>
+                    <input type="radio" value ="3" name="p1" onclick="response(1,this)">Roma
+                </label>
+            </section>
+            <section id="p2">
+                <h3>3. question no. 3</h3>
+                <label>
+                    <input type="radio" value ="1" name="p2" onclick="response(2,this)">Turin
+                </label>
+                <label>
+                    <input type="radio" value ="2" name="p2" onclick="response(2,this)">napo
+                </label>
+                <label>
+                    <input type="radio" value ="3" name="p2" onclick="response(2,this)">Roma
+                </label>
+                <label>
+                    <input type="radio" value ="4" name="p2" onclick="response(2,this)">Roma
+                </label>
+            </section>
+            <button onclick="correct()">submit</button>
+            <h2>correct answers: <span id="results"></span></h2>
+        </div>
+        
+       <!-- <script src="js/syncScript.js"></script>-->
+    </body>
+</html>

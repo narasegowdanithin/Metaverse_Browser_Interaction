@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Balsamic Sans';
+}
+header{
+    text-align: center;
+    background: #000;
+    color:#fff;
+    padding: 10px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+section{
+    border:2px solid #5624d0;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: beige;
+}
+label{
+    display:block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px dashed #ccc;
+    margin-bottom: 3px;
+    font-size:32px; /* Adjust the font size as needed */
+}
+label:hover{
+    background-color: #cec0fc;
+}
+button{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding:10px;
+
+    background-color: #76d7c8;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size:56px;
+
+}
+button:not(:disabled):hover {
+    background: #000;
+    color: #fff;
+}
+button:disabled{
+    background-color: #d3d3d3; /* Disabled background color */
+    color: #a0a0a0; /* Disabled text color */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+    pointer-events: none; /* Disable pointer events */
+}
+.results{
+    font-size:30px;
+    color:darkred;
+}
+.unanswered {
+    background-color: #f8a51d; /* You can choose the highlight color you prefer */
+}
+h3 {
+    font-size: 52px; /* Add the desired font size for h3 headers here */
+}
+/*
+.levelsubjectcontainer{
+    border:2px solid #5624d0;
+    border-radius: 7px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+/* Style for the first text element on the left */
+/*.levelsubjectcontainer > div:first-child {
+    float: left; /* Float to the left */
+    /*width: 50%; /* Take up half of the container width */
+    /*text-align: left; /* Left-align the text */
+  /*} */
+  /* Style for the second text element on the right */
+  /*.levelsubjectcontainer > div:last-child {
+    float: right; /* Float to the right */
+    /*width: 50%; /* Take up half of the container width */
+    /*text-align: right; /* Right-align the text */
+  /*}*/
+
+  .levelsubjectcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #5624d0;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: beige;
+}
+
+.levelsubjectcontainer > div {
+    flex: 1; /* Distribute space evenly between the two divs */
+}
+
+.levelsubjectcontainer > div:first-child {
+    float: left; /* Float to the left */
+    width: 50%; /* Take up half of the container width */
+    text-align: left; /* Left-align the text */
+  } 
+  /* Style for the second text element on the right */
+  .levelsubjectcontainer > div:last-child {
+    float: right; /* Float to the right */
+    width: 50%; /* Take up half of the container width */
+    text-align: right; /* Right-align the text */
+  }
+
+.levelsubjectcontainer > div h2 {
+    font-size: 52px; /* Adjust the font size as needed */
+}
+
