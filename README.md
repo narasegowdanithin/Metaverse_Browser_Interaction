@@ -68,7 +68,7 @@ This project involves running multiple Node.js applications and WebSocket server
 ### Step 3: Add Script to interact with the metaverse
 
 1.Add the following URL to the running script in Metaverse to enable exiting the quiz:
-   '''sh
+   ```sh
    http://your-url:3001/messageback.js
 
 ### Additional Information
