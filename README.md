@@ -40,8 +40,8 @@ This project involves running multiple Node.js applications and WebSocket server
     
 ### Step 4: Add Script to Exit the Quiz
 
-1.Add the following URL to the running script in Metaverse to enable exiting the quiz:
-   '''sh
+1. Add the following URL to the running script in Metaverse to enable exiting the quiz:
+   ```sh
    http://your-url:3000/ws.js
 
 ### Browser and Metaverse Property interaction Bi-directional
@@ -68,11 +68,9 @@ This project involves running multiple Node.js applications and WebSocket server
 
 ### Step 2: Start the WebSocket for Metaverse Property 
 
-1. Add the following URL to the running script in Metaverse to enable exiting the quiz:
+1. Add the following URL to the running script in Metaverse to enable interaction between browser and metaverse property:
    ```sh
    http://your-url:3001/messageback.js
-
-
     
 ### Additional Information
 
