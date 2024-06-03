@@ -57,6 +57,7 @@ This project involves running multiple Node.js applications and WebSocket server
    npm start
 
 ### Step 2: Start the WebSocket for Metaverse Property 
+
 1. Open a new terminal window..
 2. Navigate to the websocket directory for the metaverse property:
    ```sh
@@ -64,13 +65,15 @@ This project involves running multiple Node.js applications and WebSocket server
 3. Start the project using npm:
     ```sh
    npm start
-    
-### Step 3: Add Script to interact with the metaverse
 
-1.Add the following URL to the running script in Metaverse to enable exiting the quiz:
+### Step 2: Start the WebSocket for Metaverse Property 
+
+1. Add the following URL to the running script in Metaverse to enable exiting the quiz:
    ```sh
    http://your-url:3001/messageback.js
 
+
+    
 ### Additional Information
 
 1. To stop any running process, you can use Ctrl+C in the terminal where the process is running.
