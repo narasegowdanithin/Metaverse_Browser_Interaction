@@ -71,7 +71,7 @@ This project involves running multiple Node.js applications and WebSocket server
 1. Add the following URL to the running script in Metaverse to enable interaction between browser and metaverse property:
    ```sh
    http://your-url:3001/messageback.js
-    
+       
 ### Additional Information
 
 1. To stop any running process, you can use Ctrl+C in the terminal where the process is running.
