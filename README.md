@@ -1,4 +1,4 @@
-# Project Name
+# Metaverse and Browser Interaction
 
 This project involves running multiple Node.js applications and WebSocket servers to sync the browser and metaverse functionalities.
 
